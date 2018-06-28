@@ -27,6 +27,6 @@ class School
     @roster.each do |key, value|
       value.sort
     end
-    puts @roster.to_s
+    @roster
   end
 end
