@@ -1,7 +1,7 @@
 # code here!
 class School
 
-  attr_reader :name, :grade
+  attr_reader :name
 
   def initialize(name)
     @name = name
@@ -17,6 +17,10 @@ class School
       @roster[grade] = []
     end
       @roster[grade] << student_name
+  end
+
+  def grade(grade)
+    @roster.each do 
   end
 
   def sort
