@@ -2,7 +2,6 @@
 class School
 
   attr_reader :name, :grade
-  ROSTER = {}
   def initialize(name)
     @name = name
   end
