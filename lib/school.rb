@@ -20,7 +20,7 @@ class School
   end
 
   def grade(grade)
-    @roster.each do 
+    @roster[grade]
   end
 
   def sort
